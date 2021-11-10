@@ -5,8 +5,7 @@ public class InvoiceSummary {
     public double totalFare;
     public double avarage;
 
-    public InvoiceSummary(int ofRides, int numberOfRides, double totalFare)
-    {
+    public InvoiceSummary(int ofRides, int numberOfRides, double totalFare) {
         this.numberOfRides = numberOfRides;
         this.totalFare = totalFare;
         this.avarage = avarage;
